@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 280" width="100%" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0e1f"/>
+      <stop offset="0.55" stop-color="#121a33"/>
+      <stop offset="1" stop-color="#0a1024"/>
+    </linearGradient>
+    <radialGradient id="glowC" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#00C2FF" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#00C2FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowM" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#7C5CFF" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#7C5CFF" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="22"/>
+    </filter>
+  </defs>
+
+  <!-- background -->
+  <rect width="1000" height="280" fill="url(#bg)"/>
+
+  <!-- ambient glow -->
+  <circle cx="180" cy="90" r="120" fill="url(#glowC)" filter="url(#soft)"/>
+  <circle cx="840" cy="210" r="140" fill="url(#glowM)" filter="url(#soft)"/>
+
+  <!-- network mesh (left) -->
+  <g stroke="#00C2FF" stroke-opacity="0.30" stroke-width="1.2">
+    <line x1="120" y1="60" x2="235" y2="40"/>
+    <line x1="235" y1="40" x2="330" y2="95"/>
+    <line x1="120" y1="60" x2="85" y2="150"/>
+    <line x1="85" y1="150" x2="150" y2="225"/>
+    <line x1="330" y1="95" x2="300" y2="220"/>
+  </g>
+  <g fill="#00C2FF">
+    <circle cx="120" cy="60" r="4"/>
+    <circle cx="235" cy="40" r="3" fill="#7C5CFF"/>
+    <circle cx="330" cy="95" r="3"/>
+    <circle cx="85" cy="150" r="4" fill="#7C5CFF"/>
+    <circle cx="150" cy="225" r="3"/>
+    <circle cx="300" cy="220" r="3"/>
+  </g>
+
+  <!-- network mesh (right) -->
+  <g stroke="#00C2FF" stroke-opacity="0.30" stroke-width="1.2">
+    <line x1="820" y1="55" x2="720" y2="110"/>
+    <line x1="820" y1="55" x2="905" y2="135"/>
+    <line x1="720" y1="110" x2="860" y2="205"/>
+    <line x1="905" y1="135" x2="860" y2="205"/>
+  </g>
+  <g fill="#00C2FF">
+    <circle cx="820" cy="55" r="4"/>
+    <circle cx="720" cy="110" r="3"/>
+    <circle cx="905" cy="135" r="3" fill="#7C5CFF"/>
+    <circle cx="860" cy="205" r="4"/>
+  </g>
+
+  <!-- name -->
+  <text x="500" y="138" text-anchor="middle"
+        font-family="Segoe UI, Helvetica, Arial, sans-serif"
+        font-size="56" font-weight="700" fill="#ffffff" letter-spacing="0.5">
+    Yesmin Jalaldeen
+  </text>
+
+  <!-- accent line -->
+  <line x1="395" y1="162" x2="605" y2="162" stroke="#00C2FF" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="500" cy="162" r="3.5" fill="#00C2FF"/>
+
+  <!-- subtitle -->
+  <text x="500" y="196" text-anchor="middle"
+        font-family="Segoe UI, Helvetica, Arial, sans-serif"
+        font-size="17" fill="#9fb4ff" letter-spacing="5">
+    NETWORK ENGINEER  ·  SECURITY  ·  INFRASTRUCTURE
+  </text>
+</svg>
