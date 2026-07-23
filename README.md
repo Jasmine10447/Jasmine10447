@@ -6,9 +6,8 @@
 
 <div align="center">
 
-## 🌐 Future Network Engineer · Enterprise Networking · Network Security · Infrastructure
-
-<img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=22&duration=3000&pause=1000&color=00C2FF&center=true&vCenter=true&width=900&lines=Designing+Secure+%26+Scalable+Enterprise+Networks;Passionate+About+Networking+%26+Cybersecurity;Building+Reliable+Network+Infrastructure;Future+Enterprise+Network+Engineer;Implementing+Enterprise+Routing+%26+Switching+Solutions;Exploring+Cloud+Networking+%26+Virtualization;Solving+Real-World+Enterprise+Networking+Challenges;Continuously+Learning+Modern+Networking+Technologies" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code+Bold&weight=1100&size=38&duration=3000&pause=1000&color=00C2FF&center=true&vCenter=true&width=1100&lines=Designing+Secure+%26+Scalable+Enterprise+Networks;Passionate+About+Networking+%26+Cybersecurity;Building+Reliable+Network+Infrastructure;Future+Enterprise+Network+Engineer;Implementing+Enterprise+Routing+%26+Switching+Solutions;Exploring+Cloud+Networking+%26+Virtualization;Solving+Real-World+Enterprise+Networking+Challenges;Continuously+Learning+Modern+Networking+Technologies" alt="Typing SVG" /> 
+<br>
 
 <br>
 
