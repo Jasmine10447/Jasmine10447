@@ -1,0 +1,53 @@
+name: Refresh Networking Quote
+
+# Rotates a random networking/cyber quote (from quotes.json) into README.md.
+# Runs every 6 hours, on manual trigger, and whenever quotes/workflow change.
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+    paths:
+      - 'quotes.json'
+      - '.github/workflows/quote-rotator.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  rotate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Pick & insert a random networking quote
+        run: |
+          python3 << 'PYEOF'
+          import json, random, re, pathlib
+          quotes = json.loads(pathlib.Path("quotes.json").read_text(encoding="utf-8"))
+          q = random.choice(quotes)
+          new_block = (
+              '<!-- QUOTE:START -->\n'
+              f'> *"{q["quote"]}"*\n'
+              f'> — **{q["author"]}**\n'
+              '<!-- QUOTE:END -->'
+          )
+          p = pathlib.Path("README.md")
+          text = p.read_text(encoding="utf-8")
+          if re.search(r'<!-- QUOTE:START -->[\s\S]*?<!-- QUOTE:END -->', text):
+              text = re.sub(r'<!-- QUOTE:START -->[\s\S]*?<!-- QUOTE:END -->', new_block, text)
+              p.write_text(text, encoding="utf-8")
+              print("Rotated to:", q["quote"])
+          else:
+              print("Placeholder not found in README.md — skipping.")
+          PYEOF
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "chore: rotate networking quote" || echo "No changes to commit"
+          git push
