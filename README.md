@@ -182,11 +182,9 @@
 [![Gmail](https://img.shields.io/badge/Gmail-Contact%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jasminejalaldeen10447@gmail.com)
 
 [![X](https://img.shields.io/badge/X-Follow-black?style=for-the-badge&logo=x)](https://x.com/Jasmine_10447)
-[![Threads](https://img.shields.io/badge/Threads-Follow-black?style=for-the-badge&logo=threads)](https://www.threads.net/@YOUR_THREADS_HANDLE)
+[![Threads](https://img.shields.io/badge/Threads-Follow-black?style=for-the-badge&logo=threads)](https://www.threads.net/__sonic__girl__)
 
 </div>
-
-> ✏️ Replace `YOUR_X_HANDLE` and `YOUR_THREADS_HANDLE` with your real handles (or remove those badges if you don't use them).
 
 ---
 
