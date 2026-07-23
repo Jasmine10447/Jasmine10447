@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/profile-banner.svg" alt="Yesmin Jalaldeen — Network Engineer" width="100%" />
+  <img src="assests/profile-banner.svg" alt="Yesmin Jalaldeen — Network Engineer" width="100%" />
 </div>
 
 <br>
