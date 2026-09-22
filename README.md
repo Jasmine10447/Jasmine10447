@@ -44,7 +44,7 @@
 
 <div align="center">
   
-# 🌐 Networking Arsenal
+# 🌐 Network & Infrastructure Stack
 
 ## 🌍 Enterprise Networking
 
