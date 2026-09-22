@@ -21,7 +21,7 @@
 
 # 🚀 About Me
 
-### Network Engineering Undergraduate · BIT (Hons.) in Computer Networks · 🇱🇰 Sri Lanka
+### Network Engineering Graduate · BIT (Hons.) in Computer Networks · BCS PGD in Computer Networks · 🇱🇰 Sri Lanka
 
 | | |
 |:--|:--|
