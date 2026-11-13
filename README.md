@@ -12,7 +12,7 @@
 <br>
 
 ![Open to Internships](https://img.shields.io/badge/Open%20to-Internships-15803D?style=for-the-badge)
-![CCNA Target](https://img.shields.io/badge/Targeting-CCNA%20200--301%20(Sep%202026)-1D4ED8?style=for-the-badge)
+![CCNA Target](https://img.shields.io/badge/Targeting-CCNA%20200--301%20-1D4ED8?style=for-the-badge)
 ![Hackathon](https://img.shields.io/badge/THINKFEST%202025-1st%20Runner--Up-B45309?style=for-the-badge)
 
 </div>
@@ -21,7 +21,7 @@
 
 # 🚀 About Me
 
-### Network Engineering Graduate · BIT (Hons.) in Computer Networks · BCS PGD in Computer Networks 
+### Network Engineering Graduate · BIT (Hons.) in Computer Networks · BCS Cert in Computer Networks 
 
 | | |
 |:--|:--|
